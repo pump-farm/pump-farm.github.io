@@ -1849,7 +1849,7 @@ ol {
     background-color: #666;
     position: absolute;
     right: 15px;
-    top: 20px;
+    top: 13px;
     display: inline-block;
     float: none;
   }
@@ -1988,4 +1988,10 @@ ol {
   text-shadow: 2px 2px 22px black;
   font-size: 97px;
   color: orange;
+}
+
+@media screen and (max-width: 480px) {
+  .matemasie-regular {
+    font-size: 80px;
+  }
 }
